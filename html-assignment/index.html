@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=10">
 
     <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="header-bg"></div>
         <h1>Fatemeh Alimoradi</h1>
-        <address>alim0027@algonquinlife.com</address>
-        <br>
-        <a href="#MyHobbies"> My Hobbies</a>
+        <a href="#myhobbies" class="lightblue-link"> My Hobbies</a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Notes.html">Notes</a></li>
+                <li><a href="notes.html">Notes</a></li>
             </ul>
         </nav>
     </header>
+    
     
 
 <br>
@@ -27,9 +28,9 @@
     <main>
         <article>
 <h2>About Me</h2>
-<img src="images/Mypicture.jpg" alt="Mypicture" width="200">
+<img src="image/myphoto.jpg" alt="myphoto" width="200" id="myphoto">
 <hr>
-<p>Hello, my name is <mark>Fatemeh Alimoradi</mark>, and I came into this world in Ottawa, Ontario, on 14 <sup>th</sup> December, 1993. I am fortunate to share my journey with a supportive parents and an older brother who has been a constant presence in my life. My childhood was filled with joy, surrounded by wonderful friends who made those formative years truly memorable.</p>
+<p>Hello, my name is Fatemeh Alimoradi, and I came into this world in Ottawa, Ontario, on 14 <sup>th</sup> December, 1993. I am fortunate to share my journey with a supportive parents and an older brother who has been a constant presence in my life. My childhood was filled with joy, surrounded by wonderful friends who made those formative years truly memorable.</p>
 
 <p> In my pursuit of knowledge and academic excellence, I obtained a bachelor's degree in environmental science engineering. However, fueled by a deep-seated passion and a dream to explore the realms of creativity, I took a bold step towards a career in interior design. I dedicated myself to the pursuit of this new passion, acquiring the necessary skills and knowledge to excel in the field, ultimately earning a certificate in interior design.</p>
 
@@ -37,10 +38,10 @@
 
 <p>Now, I find myself immersed in a new chapter of my educational journey, expanding my horizons and delving into the intricacies of interactive media design. As a dedicated student at Algonquin College, I am eager to absorb all that this program has to offer, with the goal of further enriching my skills and contributing meaningfully to the ever-evolving world of design.</p>
 
-<blockquote>Thank You <cite>-Fatemeh</cite></blockquote>
+<blockquote class="large-text"> Thank You! <cite>-Fatemeh</cite></blockquote>
 <hr>
         </article>
-        <section id="MyHobbies">
+        <section id="myhobbies">
             <h3>My Hobbies</h3>
             <dl>
                 <dt><strong>Sport</strong></dt>
@@ -50,14 +51,15 @@
     <li>1- Pilates</li>
 <li>2- Swimming</li>
 <li>3- Tennis</li>
+<li>4- Yoga</li>
 
 </ul>
 </dd>
 <dt><strong>Music</strong></dt>
-<dd>Indulging in the world of music stands out as another cherished hobby of mine, providing a captivating escape that allows me to lose track of time and transports me into a realm entirely separate from reality.</dd>
-<dt> Favorite Singer</dt>
-<dd>Taylor Swift</dd>
-<dt>Favorite Songs</dt>
+<dd>Indulging in the world of music stands out as another cherished hobby of mine, providing a captivating escape that allows me to lose track of time and transports me into a realm entirely separate from reality.<br></dd>
+<dt> Favorite Singer:<br></dt>
+<dd>Taylor Swift<br></dd>
+<dt>Favorite Songs*:<br></dt>
 <dd>
 <ul>
     <li><cite>Wildest Dreams</cite></li>
@@ -70,10 +72,16 @@
 </dd>
 
             </dl>
-            <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_Blank">Get The Songs</a><br><hr>
+            <strong>*Get these Songs</strong>
+            <a class="black large-text"  href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_Blank"> Here</a><br><hr>
+           
 </section>
     </main>
 
-    <footer>&copy;2024 Fatemeh Alimoradi</footer><br>
+    <footer class="footer">
+       <div class="footer-bg">
+        <p>&copy;2024 Fatemeh Alimoradi</p></div> 
+
+        </footer>
 </body>
 </html>

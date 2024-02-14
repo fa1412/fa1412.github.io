@@ -1,0 +1,89 @@
+body{
+    /* CSS Comments: ctrl+/ */
+    color:rgb(9, 9, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px ;
+}
+h1{
+    color:rgb(186, 232, 221);
+}
+h1{
+    color:rgb(3, 2, 5)
+}
+p{
+    background-color: rgb(214, 241, 241);
+}
+/*select mulitple elements */
+h1,
+h2,
+h3,
+h4{
+    text-decoration:none;
+}
+/*select child elements */
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li a{
+    color: inherit;
+}
+nav ul li a:hover,
+nav ul li a:focus{
+    background-color: rgb(22, 88, 85);
+    color: white;
+}
+#myhobbies{
+    background-color: rgb(212, 226, 238);
+}
+.lightblue-link{
+    color: rgb(12, 3, 6);
+  background-color: rgb(253, 205, 229); 
+  padding: 5px; 
+  margin: 3px;
+}
+.large-text{
+    font-size: 24px;
+}
+#myphoto {
+    /* h-offset v-offset blur spread color */
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+dd ul{
+list-style: square;
+}
+
+dd ul li:nth-child(odd){
+background-color:antiquewhite;
+}
+.footer{
+    padding: 30px   40px;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/8d/95/fd/8d95fd846ef685ca428744a2c5e14b93.jpg)
+}
+.footer-bg p{
+color: black;
+padding: 20px;
+}
+.header{
+    padding: 30px 40px;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/8d/95/fd/8d95fd846ef685ca428744a2c5e14b93.jpg)
+}
+ .header-bg p{
+    color: black;
+    padding: 20px;
+ }
+ a{
+    text-decoration: none;
+ }
+ a.black.large-text {
+    color: rgb(4, 4, 4); /* Set the initial color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  a.black.large-text:hover {
+    color: rgb(188, 32, 94); /* Set the color on hover */
+    /* You can also add additional styles for hover effect, if needed */
+  }
