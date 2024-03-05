@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My CSS Styles */
+html{
+    background-color:#aad4cf ;
+}
+body{
+    background-color: #d4e9e7;
+    width:890px;
+    height: 1410px;
+    margin:0 auto;
+}
+h1{
+    background-image: url("images/lone-starfish-wide.jpg");
+}
+.container {
+	position: relative;
+	max-width: 100%;
+  }
+
+  .header {
+	position: absolute;
+	top: 54%;
+	left: -2%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-size: 55px; 
+	font-family: 'Arial', sans-serif; 
+  }
+
+  .images {
+	width: 100%;
+	height: auto;
+  }
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li a{
+    color: inherit;
+}
+nav ul li a:hover,
+nav ul li a:focus{
+    font-weight: bold;
+	
+}
+ 
+ nav a {
+	text-decoration: none;
+	margin-right: 220px;
+	font-size: 20px; 
+	font-family: Arial; 
+	font-weight:500;
+	position: relative;
+	left: 105px
+ }
+ nav {
+	background:  #d4e9e7;
+	padding: 10px;
+
+  }
+  ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex; 
+  }
+  .home::before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	bottom: 0;
+	right: -110px;
+	width: 1px; 
+	height: 35px;
+	background-color: #3c3c3c; 
+  }
+  .story::before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	bottom: 0;
+	right: -110px; 
+	width: 1px; 
+	height: 35px;
+	background-color: #3c3c3c;
+  }
+
+  
+  h2{
+    font-family: Arial;
+    font-weight:400;
+    font-size: 33px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 18px;
+  }
+  
+p {
+	line-height: 20px;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight:500 ;
+	margin-left: 6px;
+  }
+  
+   
+   .article-container {
+	display: flex;
+	align-items: center;
+  }
+
+  
+  .lone-starfish {
+	max-width: 240px;
+	height: auto;
+	margin-right: 20px; 
+	margin-bottom: 60px;
+  }
+
+  .article-content {
+	max-width: 500px; 
+  }
+  .container2{
+	width: 850px;
+	margin: auto;
+	margin-left: 5px;
+  }
+  .lone-starfish{
+	width: 500px;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+  }
+  h3{
+	font-family: Arial;
+    font-weight:520;
+    font-size:27px;
+	margin-left: 9px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+ ol{
+	font-family: Arial;
+	list-style-type:disc; 
+	display:contents; 
+	margin-left: 20px;
+	margin-bottom: 30px;
+  }
+  ol li{
+	margin-left: 30px;
+  }
+  h4{
+	font-family: Arial;
+	font-weight:520;
+	font-size:27px;
+	margin-left: 8px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+  }
+  .box {
+    width: 825px;
+    height: 400px;
+    background-color: #d4e9e7;
+    border: 2px solid #000000;
+    padding: 20px;
+	margin: 10px;
+  }
+  .send-button {
+	width: 46px; 
+	height: 36px; 
+	border:#000000 2px solid;
+	margin-top: 8px;
+	font-family: Arial;
+	text-align: center;
+	font-size:15px;
+	background:  #d4e9e7
+  }
+.name{
+	font-family: Arial;
+	font-weight: 550;
+}
+.email{
+	font-family: Arial;
+	font-weight: 550;
+}
+.message{
+	font-family: Arial;
+	font-weight: 550;
+}
+.question{
+	font-family: Arial;
+	font-weight: 550;
+}
+.options{
+	font-family: Arial;
+	font-weight: 550;
+}
+
+  footer{
+	margin-left: 760px;
+	margin-top: 26px;
+	font-weight: 500;
+  }
